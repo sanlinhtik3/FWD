@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position</title>
+    <style>
+        body {
+            height: 200vh;
+        }
+       .box-one {
+           width: 100px;
+           height: 100px;
+           background-color: #39c5fd;
+           position: absolute;
+           bottom: 20px;
+           left: 40px;
+       }
+       .box {
+           position: relative;
+           background-color: #FECACA;
+           width: 300px;
+           height: 300px;
+           z-index: 2;
+       }
+       .box-two {
+           width: 100px;
+           height: 100px;
+           background-color: #6ee7b7;
+           position: fixed;
+           top: 0;
+           right: 0;
+       }
+       .box-three {
+           width: 100px;
+           height: 100px;
+           background-color: #10b981;
+           position: sticky;
+           top: 10px;
+           z-index: 3;
+           opacity: 0.9;
+       }
+    </style>
+</head>
+<body>
+
+    <h1>CSS Position</h1>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, corporis. Obcaecati tempora sint iure dolores hic ab deserunt facere vero, explicabo ut officia veritatis delectus molestias illum, officiis unde consequatur!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, corporis. Obcaecati tempora sint iure dolores hic ab deserunt facere vero, explicabo ut officia veritatis delectus molestias illum, officiis unde consequatur!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, corporis. Obcaecati tempora sint iure dolores hic ab deserunt facere vero, explicabo ut officia veritatis delectus molestias illum, officiis unde consequatur!
+    </p>
+    <div class="box-three"></div>
+
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, corporis. Obcaecati tempora sint iure dolores hic ab deserunt facere vero, explicabo ut officia veritatis delectus molestias illum, officiis unde consequatur!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, corporis. Obcaecati tempora sint iure dolores hic ab deserunt facere vero, explicabo ut officia veritatis delectus molestias illum, officiis unde consequatur!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, corporis. Obcaecati tempora sint iure dolores hic ab deserunt facere vero, explicabo ut officia veritatis delectus molestias illum, officiis unde consequatur!
+    </p>
+
+
+    <div class="box">
+        <div class="box-one"></div>
+        <div class="box-two"></div>
+
+    </div>
+
+
+    
+</body>
+</html>

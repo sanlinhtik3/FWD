@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .app {
+            width: 300px;
+            height: auto;
+            border: 1px solid #e3e3e3;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .user {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            margin-bottom: 5px;
+        }
+        .user img {
+            width: 25px;
+        }
+        .user h4{
+            margin: 0;
+        }
+        .photo {
+            width: 100%;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+        .control {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            border-top: 1px solid #e3e3e3;
+            padding: 10px 0 0;
+        }
+        .btn {
+            width: 100%;
+            border: none;
+            background-color: transparent;
+        }
+        .share {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+        }
+        span {
+            font-size: 0.8rem;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <div class="app">
+        <div class="user">
+            <img src="./source/html.png" alt="">
+            <h4>San Lin Htike</h4>
+        </div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quidem illum delectus voluptate itaque deleniti odio cum. Possimus, ex commodi.
+        </p>
+        <img src="./source/leo-roza-j2ofdcpPpP0-unsplash.jpg" class="photo" alt="">
+        <div class="share">
+            <span>San lin and 1k others</span>
+            <span>2.8M Comments</span>
+        </div>
+        <div class="control">
+            <button class="btn">Like</button>
+            <button class="btn">Comment</button>
+            <button class="btn">Share</button>
+        </div>
+    </div>
+    
+</body>
+</html>

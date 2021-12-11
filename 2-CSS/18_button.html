@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Button</title>
+    <style>
+        .btn {
+            padding: 10px 20px;
+            margin-bottom: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.5s;
+        }
+        .btn-primary {
+            background-color: #39c5fd;
+            border: 2px solid #3b82f6;
+            color: #3b82f6;
+        }
+        .btn-secondary {
+            background-color: #6ee7b7;
+            border: 2px solid #10b981;
+            color: #10b981;
+        }
+        .btn-danger {
+            background-color: #FECACA;
+            border: 2px solid #DC2626;
+            color: #DC2626;
+        }
+        .rounded {
+            border-radius: 4px;
+        }
+
+        .btn-outline-primary {
+            border: 1px solid #DC2626;
+            color: #DC2626;
+            background-color: #ffffff;
+        }
+
+        .btn-outline-primary:hover {
+            border: 1px solid #DC2626;
+            color: #ffffff;
+            background-color: #DC2626;
+        }
+        .btn-outline-primary:active {
+            border: 1px solid #521212;
+            color: #d1cccc;
+            background-color: #DC2626;
+        }
+
+        .btn-outline-secondary {
+            background-color: #ffffff;
+            border: 2px solid #10b981;
+            color: #10b981;
+        }
+        .btn-outline-secondary:hover {
+            background-color:  #10b981;
+            border: 2px solid #094733;
+            color: #dbe0df;
+        }
+        .rounded-pill {
+            border-radius: 25px;
+        }
+    
+    </style>
+</head>
+<body>
+
+
+    <a href="#" class="btn btn-primary rounded">Signup</a>
+    <a href="#" class="btn btn-secondary rounded">Github</a>
+    <button class="btn btn-danger rounded">Signup</button>
+
+    <hr>
+
+    <button class="btn btn-outline-primary rounded rounded-pill">Twitter</button>
+    <button class="btn btn-outline-secondary rounded">Twitter</button>
+    <button class="btn btn-outline-primary rounded rounded-pill">Twitter</button>
+
+    
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Estonia&family=Open+Sans+Condensed:ital,wght@0,300;1,300&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #f0f2f5;
+            font-family: 'Comforter Brush', cursive;
+            font-family: 'Estonia', cursive;
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-family: 'Roboto', sans-serif;
+        }
+        .form {
+            width: 400px;
+            height: auto;
+            background-color: #fff;
+            padding: 10px;
+            margin: 100px auto;
+        }
+        .input {
+            width: 100%;
+            margin-bottom: 10px;
+            border: 1px solid #dddfe2;
+            padding: 15px;
+        }
+        .rounded {
+            border-radius: 10px;
+        }
+        .btn {
+            width: 100%;
+            background-color: #1877f2;
+            padding: 15px;
+            color: #fff;
+            border: 0;
+            margin-bottom: 10px;
+        }
+        a {
+            text-align: center;
+            display: block;
+            text-decoration: none;
+            color: #1877f2;
+        }
+        .btn-green {
+            background-color: #42b72a;
+        }
+        .d-inline-block {
+            width: auto;
+            display: inline-block;
+        }
+        .text-align-center {
+            text-align: center;
+        }
+        .m-b-1 {
+            margin-bottom: 10px;
+        }
+        .m-t-1 {
+            margin-top: 10px;
+        }
+        .shadow {
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        }
+    </style>
+</head>
+<body>
+
+
+    <form class="form rounded shadow">
+        <div class="">
+            <input type="email" class="input rounded" placeholder="Email Address or phone number">
+        </div>
+
+        <div class="">
+            <input type="password" class="input rounded" placeholder="Password">
+        </div>
+        <button class="btn rounded">Login</button>
+        <a href="" class="m-b-1">Forget password</a>
+        <hr>
+        <div class="text-align-center m-t-1">
+            <a href="" class="btn btn-green rounded d-inline-block">Create New Account</a>
+        </div>
+    </form>
+
+
+    
+</body>
+</html>
