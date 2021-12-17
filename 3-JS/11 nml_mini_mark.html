@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nyi Ma Lay | Mini Mark</title>
+</head>
+<body>
+
+
+    <script>
+
+        let record = [];
+        let index = 0;
+
+        let fruits = {
+            apple: 100,
+            mango: 200,
+            banana: 300
+        }
+
+        let disPer = 30
+        function discount(amount, discountPercentage = disPer) {
+            return (amount * discountPercentage) / 100;
+        }
+
+        function nml(fruit, quantity) {
+            // Statement
+            let cal = fruits[fruit] * quantity;
+            let total = cal + " ks";
+            record[index] = {
+                name: fruit,
+                price: fruits[fruit] + " Ks",
+                quantity,
+                total,
+                disPer: disPer + " %",
+                total: cal - discount(cal) + " Ks"
+            }
+            index++;
+            return console.table(record)
+        }
+
+    </script>
+    
+</body>
+</html>
